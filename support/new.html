@@ -67,6 +67,16 @@
                   <div id='zsFileBrowseAttachments'></div>
                </td>
             </tr>
+            <tr style='display:none'>
+               <td nowrap class='zsFontClass ' width='25%' align='left'>Source &nbsp;&nbsp;</td>
+               <td align='left' width='75%'>
+                  <select name='Source' value='Support&#x20;Ticket&#x20;Form'  onchange="setDependent(this, false)" id='CASECF2'>
+                     <option value='' >-None-</option>
+                     <option value='Support Ticket Form' selected>Support Ticket Form</option>
+                     <option value='Bug Report Form' >Bug Report Form</option>
+                  </select>
+               </td>
+            </tr>
             <tr>
                <td style='padding: 11px 5px 0px 5px;' colspan='2' align='center' width='25%'> <input type='submit' id="zsSubmitButton_917141000004959001" class='zsFontClass' value='Submit'> &nbsp; &nbsp; <input type='button' class='zsFontClass' value='Reset' onclick="zsResetWebForm('917141000004959001')"> </td>
             </tr>
